@@ -1,0 +1,282 @@
+
+/*google fonts **/
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+.pt-sans400{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+}
+.pt-sans700{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* Custom Stylesheet */
+/** matierial icon size and colir styles **/
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-64 { font-size: 64px; }
+.material-icons.md-86 { font-size: 86px; }
+.material-icons.md-l { font-size: 104px; }
+.material-icons.md-xl { font-size: 122px; }
+.material-icons.md-xxl { font-size: 140px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.material-icons.md-green { color: #4CAF50 !important; }
+
+
+/** ========================**/
+#secondary-navbar nav
+{
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12);
+
+}
+#secondary-navbar nav .nav-wrapper ul#nav-desktop li a .nav-text
+{
+    font-size:1em;
+    position:relative;
+
+}
+#secondary-navbar nav .nav-wrapper ul#nav-desktop li a .material-icons
+{
+    font-size:1.5em;
+    margin-right:0.2em;
+    position:relative; /* this line and the next "do the thing" */
+    top:3px;
+}
+#secondary-navbar nav .nav-wrapper ul#nav-desktop li a.h-menu .material-icons
+{   margin-right: 0px;
+    top:6px;
+}
+#secondary-navbar nav .nav-wrapper ul#nav-desktop li a
+{
+    text-align:center; /* this center the text, obv */
+    
+}
+#secondary-navbar nav .nav-wrapper ul#nav-desktop li a,
+#secondary-navbar nav .nav-wrapper ul#nav-desktop li a .material-icons
+{
+   /* color:#4CAF50; */
+}
+
+
+/**=======================**/
+nav.transparent{
+  background-color: transparent !important;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  letter-spacing: 0.05rem;
+}
+nav ul.top-bar a{
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+  color: #757575;
+}
+nav ul.top-bar a{
+  color: #ff5252;
+}
+nav li a:hover { 
+    box-shadow: 0 3px 0 #009688; 
+    transition: box-shadow 0.3s ease-in-out;
+    transition: font-weight .2s ease;
+    color: #ff5252;
+    background-color: transparent;
+}
+nav div a#logo-container i.material-icons{
+  margin-right: 0;
+} 
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+    padding-top: 7rem;
+  }
+
+
+@media only screen and (max-width : 320px){
+
+.parallax-container{
+    min-height: 400px;
+  }
+  #index-banner .section {
+    top: 0;
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
+}
+@media only screen and (max-width : 360px){
+
+.parallax-container{
+    min-height: 400px;
+  }
+  #index-banner .section {
+    top: 0;
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
+}
+
+@media only screen and (max-width : 768){
+
+.parallax-container{
+    min-height: 500px;
+  }
+  #index-banner .section {
+    top: 0;
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  
+  #index-banner .section {
+    top: 0;
+    
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+div#dropdown{
+  visibility: hidden;
+  opacity: 0;
+  color: #333;
+  min-height: 250px;
+  transition: opacity .2s ease-in 0s;
+  padding: 1rem;
+
+}
+.product{
+  cursor: pointer;
+
+}
+.log-wrapper{
+  width: 100px;
+  height: 100px;
+}
+
+
+div.prod-wrapper{
+  margin-bottom: 2rem;
+}
+div.prod-wrapper div.p-logo {
+
+}
+  
+div.prod-wrapper h4{
+text-transform: capitalize;
+
+}
+div.prod-wrapper p{
+
+}
+
+
+/*========border margin padd util class ===========*/
+.border {
+  border: 1px solid red;
+}
+
+.r-border {
+  border-right: 3px dashed grey !important;
+}
+.b-border{
+  border-bottom: 3px dashed grey !important;
+}
+.l-margin-05{
+  margin-left: .5rem;
+}
+.l-margin-1{
+  margin-left: 1rem;
+}
+.l-margin-2{
+  margin-left: 2rem;
+}
+.l-margin-3{
+  margin-left: 3rem;
+}
+.t-margin-5{
+  margin-top: 5rem;
+}
+h1.bold, h2.bold, h3.bold,h4.bold, h5.bold{
+  font-weight: 700;
+}
+bg.red{
+  background-color: red;
+}
+.capital-text{
+  text-transform: uppercase;
+  letter-spacing: 0.015rem;
+  font-weight: 800;
+
+}
+.card.tilt{
+   -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+.card.tilt-rev{
+   -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+.col.event , .col.event-desc{
+  height: 440px;
+}
+
+/*===================*/
+
+
+
+  
